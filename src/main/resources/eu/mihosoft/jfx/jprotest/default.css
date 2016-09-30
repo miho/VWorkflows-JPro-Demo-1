@@ -1,0 +1,104 @@
+/* 
+    Document   : default.css
+    Created on : 08.10.2012, 10:17:51
+    Author     : Michael Hoffer  &lt;info@michaelhoffer.de&gt;
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.vflow-background {
+    -fx-background-color: linear-gradient(to bottom, rgb(10,32,60), rgb(42,52,120));
+    
+    -fx-background-color : radial-gradient(focus-distance 0% , center 50% 50% , radius 95% , rgb(0,50,80), rgb(0,20,40));
+    -fx-background-image : url("/eu/hansolo/fx/ikon/pattern.png");
+    -fx-background-repeat: repeat;
+}
+
+.window {
+    -fx-background-color: rgba(120,140,255,0.2);
+    -fx-border-color: rgba(120,140,255,0.42);
+    -fx-border-width: 2;
+}
+
+.vnode-connector {
+    -fx-background-color: rgba(0,0,0,0.75);
+    -fx-stroke: rgba(120, 140, 255, 0.42);
+    -fx-stroke-width: 3px; 
+    -fx-border-color: rgba(120, 140, 255, 0.72);
+    -fx-shape: "m 187.92089,378.88528 a 12.94066,12.94066 0 0 1 -12.94067,12.94066 12.94066,12.94066 0 0 1 -12.94066,-12.94066 12.94066,12.94066 0 0 1 12.94066,-12.94066 12.94066,12.94066 0 0 1 12.94067,12.94066 z"
+}
+
+.vnode-connector-control {
+    -fx-background-color: rgba(255,255,0,0.75);
+    -fx-stroke: rgba(120, 140, 255, 0.42);
+    -fx-stroke-width: 3px; 
+    -fx-border-color: rgba(255,255,0,0.75);
+}
+
+.vnode-connector-event {
+    -fx-background-color: rgba(255,100,255,0.75);
+    -fx-stroke: rgba(120, 140, 255, 0.42);
+    -fx-stroke-width: 3px; 
+    -fx-border-color: rgba(255,100,255,0.75);
+}
+
+.vnode-connector-data {
+    -fx-background-color: rgba(10,10,10,0.75);
+    -fx-stroke: rgba(120, 140, 255, 0.42);
+    -fx-stroke-width: 3px; 
+    -fx-border-color: rgba(10,10,10,0.75);
+}
+
+.vnode-connection {
+    -fx-stroke: rgba(120,140,255,0.2);
+    -fx-stroke-width: 5px;
+}
+
+.vnode-new-connection {
+    -fx-stroke: rgba(120,140,255,0.2);
+    -fx-stroke-width: 5px;
+}
+
+.window-titlebar {
+
+    -fx-background-color: rgba(20,20,45,0.4);
+    -fx-border-color: rgba(120,140,255,0.42);
+    -fx-border-width: 0;
+    -fx-padding: 6 4 3 4;
+    -fx-background-insets: 2 2 -2 2;
+
+    -fx-alignment: center;
+    -fx-fill: rgba(255,255,255,50);
+}
+
+.window-icon {
+    -fx-skin: "jfxtras.internal.scene.control.skin.window.DefaultWindowIconSkin";
+    -fx-border-color: rgb(255,255,0);
+    -fx-border-radius: 3;
+    -fx-shape: " ";
+}
+
+.window-close-icon {
+    -fx-skin: "jfxtras.internal.scene.control.skin.window.DefaultWindowIconSkin";
+    -fx-border-color: rgb(255,255,255);
+    /*-fx-shape: "m 81.451435,47.885404 -39.71427,39.714277 m 0,-39.714277 39.71427,39.714277 m 27.285725,-19.85714 c 0,26.03628 -21.106585,47.142859 -47.142865,47.142859 -26.03628,0 -47.14285,-21.106579 -47.14285,-47.142859 0,-26.036277 21.10657,-47.142853 47.14285,-47.142853 26.03628,0 47.142865,21.106576 47.142865,47.142853 z";*/
+    -fx-border-width: 2;
+    -fx-border-insets: 1;
+}
+
+.window-rotate-icon {
+    -fx-skin: "jfxtras.internal.scene.control.skin.window.DefaultWindowIconSkin";
+    -fx-border-color: rgb(255,255,255);
+    -fx-shape: "m 238.03158,30.844083 -34.78125,9.875 0,0.25 34.78125,13.4375 0,-23.5625 z m -7.85745,10.984542 c 27.30327,0 49.43694,22.133672 49.43694,49.43694 0,27.303265 -22.13367,49.436935 -49.43694,49.436935 -27.30327,0 -49.43694,-22.13367 -49.43694,-49.436937 0,0 0,-10e-7 0,-10e-7";
+    -fx-border-width: 2.0;
+    -fx-border-insets: 1;
+}
+
+.window-minimize-icon {
+    -fx-skin: "jfxtras.internal.scene.control.skin.window.DefaultWindowIconSkin";
+    -fx-border-color: rgb(255,255,255);
+    -fx-shape: "m 84.388275,210.34884 -47.71427,-0.28572 m 70.999995,0.14286 c 0,26.03628 -21.106585,47.14286 -47.142865,47.14286 -26.03628,0 -47.14285,-21.10658 -47.14285,-47.14286 0,-26.03628 21.10657,-47.14285 47.14285,-47.14285 26.03628,0 47.142865,21.10657 47.142865,47.14285 z";
+    -fx-border-width: 2;
+    -fx-border-insets: 1;
+}
