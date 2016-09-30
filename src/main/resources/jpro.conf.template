@@ -10,7 +10,7 @@ jpro.applications {
   //"app-name"=fully-qualified-class-name
 }
 
-//your jpro account
+// your jpro account
 jpro.license {
   username = "YOUR_USERNAME"
   password = "YOUR_PWD"

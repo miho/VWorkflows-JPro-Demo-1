@@ -1,2 +1,7 @@
+# ignore gradle related tmp files
 /.nb-gradle/
 /build/
+.gradle
+
+# ignore jpro license information
+**/jpro.conf
