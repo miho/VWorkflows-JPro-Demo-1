@@ -29,9 +29,6 @@ public class Main extends JProApplication {
         canvas.setMaxScaleX(1.0);
         canvas.setMaxScaleY(1.0);
 
-        // define background style
-        canvas.setStyle("-fx-background-color: linear-gradient(to bottom, rgb(10,32,60), rgb(42,52,120));");
-
         // create a new flow object
         VFlow flow = FlowFactory.newFlow();
 
@@ -63,7 +60,7 @@ public class Main extends JProApplication {
 //        n2.addOutput("data");
         // the usual application setup
         Scene scene = new Scene(canvas, 800, 800);
-        scene.getStylesheets().add("/eu/mihosoft/jfx/jprotest/default.css");
+        scene.getStylesheets().add("/eu/mihosoft/jfx/vworkflows/demojpro1/default.css");
         primaryStage.setTitle("VWorkflows Tutorial 01");
         primaryStage.setScene(scene);
         primaryStage.show();
